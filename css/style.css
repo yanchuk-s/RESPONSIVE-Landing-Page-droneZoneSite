@@ -118,7 +118,7 @@ a, a:hover{text-decoration: none;}
 	font-size: 1.2em;
 	font-family: "Helvetica", sans-serif;
 	
-  background: linear-gradient(45deg, #cb0035 27%, #e06900 66%, #f5790b);
+  background: linear-gradient(45deg, #cb0035 23%, #e06900 66%, #f5790b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 	color: #e06900;
@@ -128,7 +128,7 @@ a, a:hover{text-decoration: none;}
 	font-size: 1em;
 	font-family: "Helvetica", sans-serif;
 	
-  background: linear-gradient(45deg, #cb0035 27%, #e06900 66%, #f5790b);
+  background: linear-gradient(45deg, #cb0035 23%, #e06900 66%, #f5790b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 	color: #e06900;
@@ -137,7 +137,7 @@ a, a:hover{text-decoration: none;}
 
 .pstyle{
 	font-family: "Lucida", sans-serif;
-	font-size: 0.8em;
+	font-size: 0.9em;
 	
 }
 
@@ -145,21 +145,21 @@ a, a:hover{text-decoration: none;}
 	.h1style{font-size: 2em}
 	.h2style{font-size: 2em}
 	.h3style{font-size: 1.5em}
-	.pstyle{font-size: 1em;}
+	.pstyle{font-size: 1.1em;}
 }
 
 @media screen and (min-width: 1024px){
 	.h1style{font-size: 2em}
 	.h2style{font-size: 2em}
 	.h3style{font-size: 1.5em}
-	.pstyle{font-size: 1em;}
+	.pstyle{font-size: 1.1em;}
 }
 
 @media screen and (min-width: 1300px){
 	.h1style{font-size: 2.5em}
 	.h2style{font-size: 2.5em}
 	.h3style{font-size: 2em}
-	.pstyle{font-size: 1em;}
+	.pstyle{font-size: 1.1em;}
 }
 
 /*------------------СТИЛИ ДЛЯ h1 h2 h3 p END--------------------*/
@@ -293,7 +293,7 @@ a, a:hover{text-decoration: none;}
 
 .iconsSection img {max-width: 100%; height: auto;margin-top: 3%;}
 
-.iconsSection p{color: #5e6372; padding-bottom: 8%;}
+.iconsSection p{color: #5e6372; padding-bottom: 12%; }
 
 .iconsSection h3{margin-top: 7%;}
 
@@ -337,3 +337,38 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#356aa0', end
 }
 
 /*====================== iconsSection  END================================*/
+
+.infoSection{text-align: center;padding-top: 7%; padding-bottom: 7%;
+
+margin-right: auto;
+  margin-left: auto;
+	width: 90%;
+}
+
+.infoSection p{color: #5e6372; margin-top: 3%;}
+
+#mobilSection{text-align: left;}
+
+.fa-check-circle-o{padding-right: 2%; color: #3f4e76;}
+
+#infosectionP{color: #a7acbc;}
+
+.droneimg {display: none; text-align: right;}
+.droneimg img{max-width: 100%; height: auto;}
+
+.infosectionzagol{padding-bottom: 4%;}
+.infosectionzagol h3{font-size: 1em;padding-top: 2%;}
+
+@media screen and (min-width: 1024px){
+	.droneimg {display: block;}
+	.col-6{width: 50%}
+	.infoSection{width: 95%;margin-left: 5%;}
+	#mobilSection{text-align: right;}
+}
+
+@media screen and (min-width: 768px){
+	.droneimg {display: block;}
+	.col-6{width: 50%}
+	.infoSection{width: 95%;margin-left: 5%;}
+	#mobilSection{text-align: right;}
+}
