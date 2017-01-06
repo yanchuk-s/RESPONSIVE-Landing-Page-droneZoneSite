@@ -363,12 +363,14 @@ margin-right: auto;
 	.droneimg {display: block;}
 	.col-6{width: 50%}
 	.infoSection{width: 95%;margin-left: 5%;}
-	#mobilSection{text-align: right;}
+	#mobilSection{text-align: left;}
+	.infoSection p{color: #5e6372; margin-top: 5%;}
 }
 
 @media screen and (min-width: 768px){
 	.droneimg {display: block;}
 	.col-6{width: 50%}
 	.infoSection{width: 95%;margin-left: 5%;}
-	#mobilSection{text-align: right;}
+	#mobilSection{text-align: left;}
+	
 }
